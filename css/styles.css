@@ -365,15 +365,12 @@ body {
 
 
 .main_title {
-    /* color: white;
-    font-size: 44px;
-    line-height: 60px; */
+
     padding-top: 200px;
     padding-bottom: 200px;
-    background-color: #2F303A;
+    background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/hat-bg.jpg);
     text-align: center;
-    /* letter-spacing: 0.06em;
-    text-transform: uppercase; */
+
 
 
 }
