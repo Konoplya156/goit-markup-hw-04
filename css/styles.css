@@ -229,6 +229,7 @@ body {
     letter-spacing: 0.03em;
     text-transform: uppercase;
     margin-bottom: 10px;
+    margin-top: 30px;
 
     color: #212121;
 
@@ -278,13 +279,59 @@ body {
 
 
 
+.skills-soc-icon {
+    fill: #212121
+}
+
+
+.skills-soc-link {
+    width: 270px;
+    height: 120px;
+    border: #F5F4FA;
+    background-color: #F5F4FA;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+.skills-soc {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+
+
 .team-soc-link {
     width: 44px;
     height: 44px;
     border-radius: 50%;
-    background-color: #2196F3;
-    display: block;
+    background-color: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
+
+
+.team-soc-link:hover,
+.team-soc-link:focus {
+    background-color: #2196F3;
+}
+
+
+.team-soc-icon {
+    fill: #AFB1B8;
+}
+
+
+.team-soc-link:hover .team-soc-icon,
+.team-soc-link:focus .team-soc-icon {
+    fill: #FFFFFF;
+}
+
+
 
 
 .team-img {
