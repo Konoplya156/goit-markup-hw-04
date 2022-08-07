@@ -51,15 +51,6 @@ body {
 }
 
 
-
-
-/* .header-nav {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-} */
-
-
 .header .container {
     display: flex;
 
@@ -250,7 +241,6 @@ body {
 
 
 
-
 .person-photo {
     display: flex;
     justify-content: space-between;
@@ -283,6 +273,10 @@ body {
     fill: #212121
 }
 
+.clients-soc-icon {
+    fill: #AFB1B8;
+}
+
 
 .skills-soc-link {
     width: 270px;
@@ -303,6 +297,28 @@ body {
 }
 
 
+.clients-soc-link {
+    width: 170px;
+    height: 92px;
+    border: 1px solid #AFB1B8;
+    border-radius: 4px;
+    background-color: #F5F4FA;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 94px;
+}
+
+
+
+.clients-soc {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+
+
 
 .team-soc-link {
     width: 44px;
@@ -318,6 +334,18 @@ body {
 .team-soc-link:hover,
 .team-soc-link:focus {
     background-color: #2196F3;
+
+}
+
+.clients-soc-link:hover .clients-soc-icon,
+.clients-soc-link:focus .clients-soc-icon {
+    fill: #2196F3;
+
+}
+
+.clients-soc-link:hover,
+.clients-soc-link:focus {
+    border-color: #2196F3;
 }
 
 
@@ -332,6 +360,64 @@ body {
 }
 
 
+
+.footer-soc-link {
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    background: rgba(255, 255, 255, 0.1);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+
+
+.footer-soc {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+
+.footer-soc-icon {
+    fill: #ffffff;
+}
+
+
+.footer-soc-link:hover,
+.footer-soc-link:focus {
+    background-color: #2196F3;
+
+}
+
+
+.footer-soc-link:hover .footer-soc-icon,
+.footer-soc-link:focus .footer-soc-icon {
+    fill: #FFFFFF;
+}
+
+
+.footer-text-icons {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.4;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    display: block;
+
+}
+
+
+.footer-soc-item {
+    display: flex;
+    justify-content: center;
+}
 
 
 .team-img {
