@@ -377,7 +377,7 @@ body {
     padding-bottom: 94px;
 }
 
-.main_page {
+.main-page {
     margin-top: 0;
     margin-bottom: 50px;
     font-weight: 700;
@@ -459,6 +459,19 @@ body {
     letter-spacing: 0.06em;
     text-transform: uppercase;
     margin: 0 auto 30px auto;
+}
+
+
+
+.clients {
+    margin-top: 94px;
+    margin-bottom: 50px;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.66;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--primery-text-color);
 }
 
 
