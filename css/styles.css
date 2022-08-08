@@ -302,7 +302,6 @@ body {
     height: 92px;
     border: 1px solid #AFB1B8;
     border-radius: 4px;
-    background-color: #F5F4FA;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -527,6 +526,7 @@ body {
     background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/hat-bg.jpg);
     text-align: center;
     max-width: 1600px;
+    background-size: cover;
 
 
 
