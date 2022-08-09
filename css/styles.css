@@ -383,6 +383,7 @@ body {
 
 .footer-soc-icon {
     fill: #ffffff;
+    display: flex;
 }
 
 
@@ -408,7 +409,7 @@ body {
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #FFFFFF;
-    display: block;
+    display: flex;
 
 }
 
