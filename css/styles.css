@@ -359,34 +359,6 @@ body {
 }
 
 
-
-.footer-soc-link {
-    width: 44px;
-    height: 44px;
-    border-radius: 50%;
-    background: rgba(255, 255, 255, 0.1);
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-
-
-
-
-.footer-soc {
-    display: flex;
-    justify-content: center;
-    gap: 10px;
-}
-
-
-.footer-soc-icon {
-    fill: #ffffff;
-    display: flex;
-}
-
-
 .footer-soc-link:hover,
 .footer-soc-link:focus {
     background-color: #2196F3;
@@ -401,17 +373,49 @@ body {
 
 
 .footer-text-icons {
-    font-family: 'Roboto';
-    font-style: normal;
     font-weight: 700;
     font-size: 14px;
     line-height: 1.4;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    color: #FFFFFF;
-    display: flex;
+    color: var(--hero-color);
+    /* display: flex; */
+    /* justify-content: center; */
+    margin-bottom: 20px;
 
 }
+
+.footer-soc-link {
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    background: rgba(255, 255, 255, 0.1);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer-soc {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+
+.footer-soc-icon {
+    fill: #ffffff;
+    display: flex;
+}
+
+
+.footer-after {
+    width: 206px;
+    padding-top: 12px;
+}
+
+
+
+
 
 
 .footer-soc-item {
