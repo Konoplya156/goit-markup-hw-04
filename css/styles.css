@@ -47,7 +47,6 @@ body {
     margin-right: auto;
     padding-left: 15px;
     padding-right: 15px;
-    align-items: center
 }
 
 
@@ -297,6 +296,17 @@ body {
 }
 
 
+.clients {
+    margin-bottom: 50px;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.66;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--primery-text-color);
+}
+
+
 .clients-soc-link {
     width: 170px;
     height: 92px;
@@ -305,7 +315,6 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-bottom: 94px;
 }
 
 
@@ -335,6 +344,10 @@ body {
     background-color: #2196F3;
 
 }
+
+
+
+
 
 .clients-soc-link:hover .clients-soc-icon,
 .clients-soc-link:focus .clients-soc-icon {
@@ -408,10 +421,12 @@ body {
 }
 
 
-.footer-after {
-    width: 206px;
-    padding-top: 12px;
+.footer-container {
+    display: flex;
+    align-items: baseline;
 }
+
+
 
 
 
@@ -551,20 +566,6 @@ body {
     text-transform: uppercase;
     margin: 0 auto 30px auto;
 }
-
-
-
-.clients {
-    margin-top: 94px;
-    margin-bottom: 50px;
-    font-weight: 700;
-    font-size: 36px;
-    line-height: 1.66;
-    text-align: center;
-    letter-spacing: 0.03em;
-    color: var(--primery-text-color);
-}
-
 
 
 
