@@ -81,7 +81,6 @@ body {
 }
 
 
-
 .header-info-num,
 .header-info-mail {
     margin-right: 50px;
@@ -141,7 +140,6 @@ body {
 
 
 
-
 .about,
 .footer-number,
 .footer-number {
@@ -155,7 +153,6 @@ body {
 .footer-number,
 .footer-mail {
     font-weight: 500;
-
     cursor: pointer;
     font-weight: 400;
     font-size: 14px;
@@ -205,8 +202,6 @@ body {
 
 .big-pages {
     padding-top: 94px;
-    /* padding-right: 215px;
-    padding-left: 215px; */
     padding-bottom: 94px;
 }
 
@@ -346,7 +341,10 @@ body {
 }
 
 
-
+.all-clients {
+    padding-top: 95px;
+    padding-bottom: 95px;
+}
 
 
 .clients-soc-link:hover .clients-soc-icon,
@@ -385,15 +383,18 @@ body {
 }
 
 
+.footer-after {
+    margin-left: 155px;
+}
+
+
 .footer-text-icons {
     font-weight: 700;
     font-size: 14px;
     line-height: 1.4;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    color: var(--hero-color);
-    /* display: flex; */
-    /* justify-content: center; */
+    color: #FFFFFF;
     margin-bottom: 20px;
 
 }
@@ -430,9 +431,6 @@ body {
 
 
 
-
-
-
 .footer-soc-item {
     display: flex;
     justify-content: center;
@@ -463,8 +461,6 @@ body {
 
     display: flex;
     column-gap: 30px;
-    /* padding-left: 215px;
-    padding-right: 215px; */
 }
 
 
@@ -633,8 +629,22 @@ ul {
     color: #2196F3;
 }
 
+.header-mail-icon:hover {
+    color: #2196F3;
+}
+
+
 .number:hover {
     color: #2196F3;
+}
+
+.header-mail-icon {
+    fill: currentColor;
+}
+
+
+.header-phone-icon {
+    fill: currentColor;
 }
 
 
@@ -815,7 +825,5 @@ ul {
     background: #FFFFFF;
     border: 1px solid #EEEEEE;
     border-top: 0;
-    /* max-width: 370px;
-    min-width: 370px; */
     padding: 20px 24px;
 }
