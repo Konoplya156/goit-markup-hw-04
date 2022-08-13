@@ -136,6 +136,7 @@ body {
     font-size: 14px;
     line-height: 1.7;
     letter-spacing: 0.02em;
+    display: flex;
 }
 
 
@@ -214,8 +215,7 @@ body {
     letter-spacing: 0.03em;
     text-transform: uppercase;
     margin-bottom: 10px;
-    margin-top: 30px;
-
+    /* margin-top: 30px; */
     color: #212121;
 
 
@@ -280,6 +280,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
+    margin-bottom: 30px;
 }
 
 
@@ -384,7 +385,7 @@ body {
 
 
 .footer-after {
-    margin-left: 155px;
+    margin-left: 156px;
 }
 
 
@@ -640,11 +641,13 @@ ul {
 
 .header-mail-icon {
     fill: currentColor;
+    margin-right: 10px;
 }
 
 
 .header-phone-icon {
     fill: currentColor;
+    margin-right: 10px;
 }
 
 
@@ -671,7 +674,7 @@ ul {
 .section-btn-item :focus {
     color: var(--primery-white-color);
     background-color: var(--accent-text-color);
-    border: 1px solid var(--accent-text-color);
+    /* border: 1px solid var(--accent-text-color); */
     color: #ffffff;
     background-color: #2196F3;
     box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1);
@@ -803,12 +806,15 @@ ul {
 
 .example-item-cursor {
     display: block;
+
+
 }
 
 
 .example-item-cursor:hover,
 .example-item-cursor:focus {
-    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.12);
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
+
 }
 
 
